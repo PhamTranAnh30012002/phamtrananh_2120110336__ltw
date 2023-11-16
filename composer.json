@@ -1,0 +1,23 @@
+{
+    "name": "phamtrananh/shop-ban-sach",
+    "description": "Học lập trình website với thầy lợi",
+    "authors": [
+        {
+            "name": "Pham Tran Anh",
+            "email": "Anhphamtran2002@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.28",
+        "illuminate/events": "^10.28"
+    }
+}
